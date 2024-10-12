@@ -1,3 +1,4 @@
+/* Estilos generales */
 body {
     margin: 0;
     padding: 0;
@@ -18,10 +19,34 @@ body {
     text-align: center;
 }
 
+/* Estilos del título */
 h1 {
     font-size: 1.2em;
 }
 
+/* Estilos del párrafo */
 p {
     font-size: 0.8em;
+}
+
+/* Estilos del botón */
+button {
+    margin-top: 20px;
+    padding: 5px 10px; /* Reducido */
+    font-size: 0.8em;   /* Reducido */
+    color: white;
+    background-color: #ff4081; /* Color de fondo */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #e91e63; /* Color al pasar el mouse */
+    transform: scale(1.05); /* Efecto de crecimiento */
+}
+
+button:focus {
+    outline: none; /* Quitar el borde al enfocar */
 }
